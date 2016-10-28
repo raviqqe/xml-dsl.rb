@@ -3,7 +3,7 @@
 # This file is licensed by SvenDowideit@docker.com.
 # original source: https://docs.docker.com/engine/examples/postgresql_service/
 
-require 'dockerfile-dsl'
+require 'xml-dsl'
 
 
 

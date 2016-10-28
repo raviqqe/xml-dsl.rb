@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'block-is-array'
-require 'dockerfile-dsl'
+require 'xml-dsl'
 
 
 

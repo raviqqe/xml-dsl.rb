@@ -1,2 +1,2 @@
-require_relative 'dockerfile-dsl/compile'
-require_relative 'dockerfile-dsl/function'
+require_relative 'xml-dsl/compile'
+require_relative 'xml-dsl/function'

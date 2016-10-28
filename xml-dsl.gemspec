@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'dockerfile-dsl'
+  s.name        = 'xml-dsl'
   s.version     = '0.0.2'
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.authors     = ['Yota Toyama']
   s.email       = 'raviqqe@gmail.com'
-  s.homepage    = 'https://github.com/raviqqe/dockerfile-dsl.rb'
+  s.homepage    = 'https://github.com/raviqqe/xml-dsl.rb'
 
   s.add_dependency 'block-is-array', '~> 0'
 

@@ -1,6 +1,6 @@
-# dockerfile-dsl
+# xml-dsl
 
-[![Build Status](https://travis-ci.org/raviqqe/dockerfile-dsl.rb.svg?branch=master)](https://travis-ci.org/raviqqe/dockerfile-dsl.rb)
+[![Build Status](https://travis-ci.org/raviqqe/xml-dsl.rb.svg?branch=master)](https://travis-ci.org/raviqqe/xml-dsl.rb)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
 Dockerfile DSL in Ruby
@@ -8,7 +8,7 @@ Dockerfile DSL in Ruby
 ## Installation
 
 ```
-$ gem install dockerfile-dsl
+$ gem install xml-dsl
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ $ gem install dockerfile-dsl
 Code:
 
 ```ruby
-require 'dockerfile-dsl'
+require 'xml-dsl'
 
 file = dockerfile do
   from :ubuntu
