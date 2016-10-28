@@ -34,7 +34,10 @@ puts file
 Output:
 
 ```xml
-TODO
+<html>
+    <head/>
+    <body/>
+</html>
 ```
 
 For more examples, see [examples](examples) directory.
