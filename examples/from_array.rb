@@ -13,4 +13,4 @@ end
 
 array.insert 1, [:maintainer, 'Me']
 
-puts Dockerfile.from_array(array)
+puts XML.from_array(array)

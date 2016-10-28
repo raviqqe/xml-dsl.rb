@@ -1,4 +1,4 @@
-module Dockerfile
+module XML
   def self.from_array array
     array.map do |entry|
       [entry[0].to_s.upcase, *entry[1..-1].map { |o| compile_object o }] \

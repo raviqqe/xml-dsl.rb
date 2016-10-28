@@ -24,7 +24,7 @@ task :test => :install do
   mkdir_p TMP_DIR
 
   Dir.glob('examples/*.rb').each do |file|
-    File.write File.join(TMP_DIR, 'Dockerfile'), `ruby #{file}`
+    File.write File.join(TMP_DIR, 'XML'), `ruby #{file}`
     sh "sudo docker build #{TMP_DIR}"
   end
 

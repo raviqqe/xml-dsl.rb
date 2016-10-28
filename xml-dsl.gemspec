@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
 
-  s.summary     = 'Dockerfile DSL'
-  s.description = 'Dockerfile DSL and generator'
+  s.summary     = 'XML DSL'
+  s.description = 'XML DSL and generator'
 
   s.authors     = ['Yota Toyama']
   s.email       = 'raviqqe@gmail.com'
