@@ -2,8 +2,10 @@ sudo: required
 
 language: ruby
 
-services:
-  - docker
+addons:
+  apt:
+    packages:
+      - libxml2-utils
 
 script:
   - rake test
