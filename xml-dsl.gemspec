@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/raviqqe/xml-dsl.rb'
 
   s.add_dependency 'block-is-array', '~> 0'
+  s.add_dependency 'nokogiri', '~> 1'
 
   s.files       = Dir['lib/**/*']
 end
