@@ -19,10 +19,13 @@ Code:
 require 'xml-dsl'
 
 file = xml do
-  from :ubuntu
-  run 'sudo apt install nginx'
-  add 'nginx.conf', '/etc/nginx.conf'
-  cmd [:service, :nginx, :start]
+  html do
+    head do
+    end
+
+    body do
+    end
+  end
 end
 
 puts file
@@ -31,10 +34,7 @@ puts file
 Output:
 
 ```xml
-FROM ubuntu
-RUN sudo apt install nginx
-ADD nginx.conf /etc/nginx.conf
-CMD ["service", "nginx", "start"]
+TODO
 ```
 
 For more examples, see [examples](examples) directory.
