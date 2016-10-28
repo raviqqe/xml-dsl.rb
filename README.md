@@ -1,5 +1,6 @@
 # xml-dsl
 
+[![Gem Version](https://badge.fury.io/rb/xml-dsl.svg)](https://badge.fury.io/rb/xml-dsl)
 [![Build Status](https://travis-ci.org/raviqqe/xml-dsl.rb.svg?branch=master)](https://travis-ci.org/raviqqe/xml-dsl.rb)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
