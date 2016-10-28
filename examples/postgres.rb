@@ -7,7 +7,7 @@ require 'xml-dsl'
 
 
 
-file = dockerfile do
+file = xml do
   from 'ubuntu'
   maintainer 'SvenDowideit@docker.com'
 

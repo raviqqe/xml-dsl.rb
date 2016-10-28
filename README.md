@@ -18,7 +18,7 @@ Code:
 ```ruby
 require 'xml-dsl'
 
-file = dockerfile do
+file = xml do
   from :ubuntu
   run 'sudo apt install nginx'
   add 'nginx.conf', '/etc/nginx.conf'
@@ -30,7 +30,7 @@ puts file
 
 Output:
 
-```dockerfile
+```xml
 FROM ubuntu
 RUN sudo apt install nginx
 ADD nginx.conf /etc/nginx.conf

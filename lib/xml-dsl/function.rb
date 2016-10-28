@@ -4,6 +4,6 @@ require_relative 'compile'
 
 
 
-def dockerfile &block
+def xml &block
   Dockerfile::from_array block_is_array(&block)
 end
