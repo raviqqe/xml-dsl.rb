@@ -4,6 +4,6 @@ require_relative 'compile'
 
 
 
-def xml &block
-  XML::from_array block_is_array(&block)
+def xml format: true, &block
+  XML::from_array block_is_array(&block), format: format
 end
