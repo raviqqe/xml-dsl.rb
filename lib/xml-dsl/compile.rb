@@ -8,8 +8,7 @@ module XML
 
     return xml if not format
 
-    Nokogiri::XML(xml, &:noblanks)
-        .to_xml(indent: 4, &:no_declaration)
+    Nokogiri::XML(xml, &:noblanks).to_xml(indent: 4, &:no_declaration)
   end
 
   def self.compile_elems elems
