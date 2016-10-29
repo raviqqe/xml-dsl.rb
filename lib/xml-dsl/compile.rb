@@ -3,8 +3,12 @@ require 'nokogiri'
 
 
 module XML
-  def self.from_array array
-    Nokogiri::XML(compile_elems(array), &:noblanks)
+  def self.from_array array, format: true
+    xml = compile_elems(array)
+
+    return xml if not format
+
+    Nokogiri::XML(xml, &:noblanks)
         .to_xml(indent: 4, &:no_declaration)
   end
 
