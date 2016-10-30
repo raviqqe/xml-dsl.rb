@@ -19,7 +19,7 @@ module XML
 
   def self.tagged tag, attrs, body
     tag = tag.to_s
-    brackets(tag + ' ' + compile_attrs(attrs)) \
+    brackets(tag + (attrs.length > 0 ? ' ' + compile_attrs(attrs) : '')) \
         + (body.is_a?(String) ? body : compile_elems(body)) \
         + brackets('/' + tag)
   end
