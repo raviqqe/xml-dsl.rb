@@ -26,7 +26,7 @@ module XML
 
   def self.compile_attrs attrs
     attrs.map do |name, value|
-      "#{name}=#{value.encode(xml: :attr)}"
+      "#{name}=#{value.to_s.encode(xml: :attr)}"
     end.join ' '
   end
 
